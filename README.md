@@ -20,7 +20,7 @@ A complete serveerless price tracking tool that simulates the product prices, st
 - AWS Budgets (Billing alerts)
 - boto3 (AWS SDK for Python)
 
-## ⚙️ How It Works
+## How It Works
 1.EventBridge triggers the lambda funcn every 6 hours
 2.lambda simulates random price for pre defined objects
 3.If the current price price of the produc is less than or equal to the target price then an alert mail is sent via sns service
@@ -48,7 +48,7 @@ Getting Started
 - Set to run every 6 hours.
 - Choose Lambda function as target.
 
-### 6. (Optional) Set Budget Alerts
+### 6. Set Budget Alerts
 - Go to Billing → Budgets → Set $5 alert to receive monthly usage warnings.
 
 Screenshots
