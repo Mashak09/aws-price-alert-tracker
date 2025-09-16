@@ -11,21 +11,6 @@ A complete serveerless price tracking tool that simulates the product prices, st
 -  Monitors AWS budget with alerts to prevent overspending
 -  100% serverless (no EC2 or manual maintenance)
 
--  ## Architecture Overview
-
-EventBridge (every 6 hours)
-        │
-        ▼
-   Lambda Function
-        │
- ┌──────┴──────┐
- ▼             ▼
-DynamoDB     SNS Topic
-                 │
-            Email Alerts
-
----
-
 ## Step 4: Tech Stack used
 
 - AWS Lambda (Python)
